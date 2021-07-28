@@ -5,7 +5,7 @@ import operator
 
 
 # This function calculate the distance between two geographic coordinates
-# https://stackoverflow.com/a/19412565/7664185 [no man is good enough to be another's mast:)] - William Morris
+# https://stackoverflow.com/a/19412565/7664185 [no man is good enough to be another's master ;)] - William Morris
 
 def haversine(lat1, lng1, lat2, lng2):
     R = 6373.0
