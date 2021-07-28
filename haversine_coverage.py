@@ -32,7 +32,7 @@ def calculate_zone_coverage(shoppers, location):
 
         # Here we loop through locations and saves the coverage
         # count of each person for each location only if the shopper
-        # location is within 10 km of location.
+        # location is within 10 km of distance.
 
         for location in locations:
             distance = haversine(shopper['lat'], shopper['lng'],
